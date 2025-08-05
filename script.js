@@ -20,8 +20,11 @@ function darkMode() {
   document.querySelector("body").classList.toggle("light");
   document.querySelector(".add-btn").classList.toggle("buttondark");
 }
-document.querySelector(".dark-btn").addEventListener("click", darkMode);
-document.querySelector(".light-btn").addEventListener("click", darkMode);
+
+//لانه عندي زرين من كل واحد في النافبار و الدروب داون فعشان يوخدهم كلهم مش بس اول واحد عملنا هيك
+document.querySelectorAll(".dark-btn, .light-btn").forEach((btn) => {
+  btn.addEventListener("click", darkMode);
+});
 
 // add tasks
 
