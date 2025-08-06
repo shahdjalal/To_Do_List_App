@@ -384,7 +384,7 @@ body.dark .typewriter{
     display: inline-block;
   }
    .typewriter {
-    font-size: 16px; /* أصغر شوي عشان ما يطلع لبرا */
+    font-size: 16px; 
   }
 }
 
@@ -400,7 +400,7 @@ body.dark .typewriter{
     width: calc(100% - 50px);
   }
    .typewriter {
-    font-size: 13px; /* أصغر شوي عشان ما يطلع لبرا */
+    font-size: 13px; 
   }
 }
 
@@ -456,4 +456,5 @@ body.dark .typewriter{
     left: 0;
   }
 }
+
 
