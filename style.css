@@ -185,12 +185,7 @@ body.dark nav {
   gap: 10px;
 }
 
-.header p {
-  text-align: center;
-  font-size: 25px;
-  /*  
-  color: rgba(255, 255, 255, 0.729); */
-}
+
 .task_box {
   display: flex;
   justify-content: center;
@@ -233,7 +228,7 @@ input:focus {
   background-color: #6b63ffa3;
   padding-right: 2px;
 }
-body.dark .buttondark {
+body.dark .add-btn {
   color: #fff;
 }
 
@@ -388,17 +383,24 @@ body.dark .typewriter{
     position: relative;
     display: inline-block;
   }
+   .typewriter {
+    font-size: 16px; /* أصغر شوي عشان ما يطلع لبرا */
+  }
 }
 
 @media screen and (max-width: 590px) {
   .container {
     width: calc(100% - 100px);
   }
+
 }
 
 @media screen and (max-width: 420px) {
   .container {
     width: calc(100% - 50px);
+  }
+   .typewriter {
+    font-size: 13px; /* أصغر شوي عشان ما يطلع لبرا */
   }
 }
 
@@ -454,5 +456,4 @@ body.dark .typewriter{
     left: 0;
   }
 }
-
 
