@@ -350,7 +350,7 @@ body.dark footer {
   overflow: hidden;
   border-right: 2px solid black;
 
-  width: fit-content; /* خليه قد حجم النص بالضبط */
+  
   margin: 0 auto 20px; /* هذا اللي بوسطه أفقياً */
   text-align: center;
 
@@ -368,7 +368,7 @@ body.dark .typewriter{
   }
   to {
     width: 35ch;
-  } /* 27 حرف بالضبط */
+  } 
 }
 
 @keyframes blink {
@@ -455,5 +455,4 @@ body.dark .typewriter{
   }
 }
 
-@media screen and (max-width: 380px) {
-}
+
